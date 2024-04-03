@@ -1,0 +1,15 @@
+SavedWeights
+runs
+results
+PretrainedWeights
+__pycache__
+.vscode
+LogFiles
+arousal_res.pkl
+valence_res.pkl
+TSAV_Sub4_544k.pth.tar
+arousal_res
+preprocessing_codes
+exps
+,vscode
+
