@@ -10,7 +10,7 @@ Bacon<sup>2</sup>, Eric Granger<sup>1</sup>**
 <br/>
 <sup>2</sup> Dept. of Health, Kinesiology \& Applied Physiology, Concordia University, Montreal, Canada
 
-<p align="center"><img src="doc/promo.png" alt="outline" width="60%"></p>
+<p align="center"><img src="doc/promo.jpg" alt="outline" width="60%"></p>
 
 
 
