@@ -38,12 +38,11 @@ method allow us to outperform relevant baseline and state-of-the-art methods.
 
 ## Citation:
 ```
-@article{Waligora-abaw-24,
+@InProceedings{Waligora-abaw-24,
   title={Joint Multimodal Transformer for Emotion Recognition in the Wild},
   author={Waligora, P. and Aslam, H. and Zeeshan, O. and Belharbi, S. and
   Koerich, A. L. and Pedersoli, M. and Bacon, S. and Granger, E.},
-  journal={CoRR},
-  volume={abs/2403.10488},
+  booktitle={CVPRw},
   year={2024}
 }
 ```
