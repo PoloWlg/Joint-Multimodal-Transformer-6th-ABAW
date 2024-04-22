@@ -15,23 +15,27 @@ Bacon<sup>2</sup>, Eric Granger<sup>1</sup>**
 
 
 ## Abstract
-Systems for multimodal emotion recognition (MMER) can typically outperform 
-unimodal systems by leveraging the inter- and intra-modal relationships 
-between, e.g., visual, textual, physiological, and auditory modalities. 
-In this paper, an MMER method is proposed that relies on a joint multimodal 
-transformer for fusion with key-based cross-attention. This framework aims to 
-exploit the diverse and complementary nature of different modalities to improve 
-predictive accuracy. Separate backbones capture intra-modal spatiotemporal 
-dependencies within each modality over video sequences. Subsequently, a joint 
-multimodal transformer fusion architecture integrates the individual modality 
-embeddings, allowing the model to capture inter-modal and intra-modal 
-relationships effectively.
-Extensive experiments on two challenging expression recognition tasks: (1) 
-dimensional emotion recognition on the Affwild2 dataset (with face and voice), 
-and (2) pain estimation on the Biovid dataset (with face and biosensors), 
-indicate that the proposed method can work effectively with different 
-modalities. Empirical results show that MMER systems with our proposed fusion 
-method allow us to outperform relevant baseline and state-of-the-art methods. 
+Multimodal emotion recognition (MMER) systems typically
+outperform unimodal systems by leveraging the inter-
+and intra-modal relationships between, e.g., visual, textual,
+physiological, and auditory modalities. This paper
+proposes an MMER method that relies on a joint multimodal 
+transformer (JMT) for fusion with key-based cross-attention. 
+This framework can exploit the complementary
+nature of diverse modalities to improve predictive accuracy. 
+Separate backbones capture intra-modal spatiotemporal 
+dependencies within each modality over video sequences. 
+Subsequently, our JMT fusion architecture integrates 
+the individual modality embeddings, allowing the
+model to effectively capture inter- and intra-modal relationships. 
+Extensive experiments on two challenging expression 
+recognition tasks – (1) dimensional emotion recognition
+on the Affwild2 dataset (with face and voice) and
+(2) pain estimation on the Biovid dataset (with face and
+biosensors) – indicate that our JMT fusion can provide a
+cost-effective solution for MMER. Empirical results show
+that MMER systems with our proposed fusion allow us to
+outperform relevant baseline and state-of-the-art methods.
 
 **Code: Pytorch 1.9.0**, made for the [6th-ABAW challenge](https://affective-behavior-analysis-in-the-wild.github.io/6th/index.html).
 
